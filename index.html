@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Rural El Conde de Lerin</title>
+    <style>
+        /* Estilo global */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Estilo para el header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        /* Estilo de la sección principal */
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+
+        .contact-form button {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Estilo para la imagen de fondo de la casa (opcional) */
+        .hero-image {
+            background-image: url('https://via.placeholder.com/1200x500'); /* Puedes cambiar esta URL por una imagen real */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .hero-text {
+            color: white;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            text-align: center;
+            padding-top: 120px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Casa Rural El Conde de Lerin</h1>
+</header>
+
+<div class="hero-image">
+    <div class="hero-text">Descubre la tranquilidad de Lerin, Navarra</div>
+</div>
+
+<section>
+    <h2>Bienvenidos a nuestra casa rural</h2>
+    <p>Ubicada en el corazón de Navarra, nuestra casa ofrece el lugar perfecto para desconectar, relajarte y disfrutar de la naturaleza. Con capacidad para hasta 6 personas, es ideal para familias y grupos de amigos.</p>
+    <p>La casa cuenta con 3 habitaciones acogedoras, 1 baño moderno y un amplio salón para que puedas disfrutar de tu estancia al máximo.</p>
+
+    <h3>Contáctanos para más información</h3>
+    <div class="contact-form">
+        <form action="mailto:condedelerin13@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required placeholder="Escribe tu nombre">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="Escribe tu correo">
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Escribe tu mensaje"></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Casa Rural El Conde de Lerin - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
